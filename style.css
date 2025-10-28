@@ -71,14 +71,14 @@
     left: 20px;
     width: 48px;
     height: 48px;
-    background: transparent;
+    background: var(--light);
     border: none;
+    border-radius: 50%;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--medium);
-    transition: color 0.2s ease, transform 0.2s ease;
     z-index: 1001;
 }
 
@@ -157,8 +157,8 @@
 @media (max-width: 768px) {
     /* Landing page adjustments for mobile */
     body img {
-        height: 12vh !important;
-        margin-top: 20vh !important;
+        height: 16vh !important;
+        margin-top: 30vh !important;
     }
     
     body > p {
@@ -228,12 +228,12 @@
 @media (max-width: 480px) {
     /* Extra small mobile adjustments */
     body img {
-        height: 10vh !important;
-        margin-top: 18vh !important;
+        height: 12vh !important;
+        margin-top: 30vh !important;
     }
     
     body > p {
-        font-size: 12px !important;
+        font-size: 13px !important;
         padding: 0 20px !important;
     }
     
