@@ -137,6 +137,7 @@
     color: var(--dark);
     line-height: 1.6;
     margin-bottom: 16px;
+    text-align: justify;
 }
 
 .page-content p:last-child {
