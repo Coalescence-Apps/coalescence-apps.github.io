@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coalescence App Systems</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: var(--light);font:var(--font-body);display: flex; justify-content: center; align-items: begin; flex-direction: column;min-height: 100vh;margin:0;padding:0;">
+    <img src="assets/logo.png" alt="Coalescence App Systems" style="height: 15vh;margin-top: 25vh;align-self: center;">
+    <p style="font:var(--font-logo);font-size:15px;text-align: center;margin-top: 4vh;">We develop apps that empower your day.</p>
+    <p style="font:var(--font-body);font-size:15px;text-align: center;margin-top: 4vh;">Our first app is coming soon. Stay tuned!</p>
+    <div style="display: flex;justify-content: space-between; gap: 4vw;margin-top: auto;margin-bottom: 4vh;align-self: center;">
+        <span class="link" data-page="imprint">Imprint</span>
+        <span class="link" data-page="privacy">Privacy</span>
+    </div>
+
+    <!-- Page Overlays -->
+    <div id="page-overlay" class="page-overlay">
+        <button id="close-btn" class="close-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 6L6 18M6 6l12 12"/>
+            </svg>
+        </button>
+        <div id="page-content" class="page-content"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
